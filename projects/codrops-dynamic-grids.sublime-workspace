@@ -1,0 +1,1787 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"layou",
+				"layoutDiv"
+			],
+			[
+				"ini",
+				"initialWidth"
+			],
+			[
+				"profile",
+				"profile_picture_url"
+			],
+			[
+				"S",
+				"SPHINX_CONF_DIR"
+			],
+			[
+				"sub",
+				"sub-menu"
+			],
+			[
+				"menu-",
+				"menu-primary"
+			],
+			[
+				"menu",
+				"menu-collapse"
+			],
+			[
+				"nth-of",
+				":nth-of-type(|)"
+			],
+			[
+				"border-radi",
+				"border-bottom-left-radius"
+			],
+			[
+				"borderc",
+				"border-left-color"
+			],
+			[
+				"text",
+				"text-bottom"
+			],
+			[
+				"text-",
+				"text-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/andrehugo/Sites/codrops/dynamic-grids/css/demo.css",
+			"settings":
+			{
+				"buffer_size": 2264,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/andrehugo/Sites/codrops/dynamic-grids/css/style.css",
+			"settings":
+			{
+				"buffer_size": 8774,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andrehugo/Sites/codrops/dynamic-grids/index.html",
+			"settings":
+			{
+				"buffer_size": 4611,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andrehugo/Sites/codrops/dynamic-grids/index2.html",
+			"settings":
+			{
+				"buffer_size": 5704,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andrehugo/Sites/codrops/dynamic-grids/article.html",
+			"settings":
+			{
+				"buffer_size": 15990,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "L2DG Sass",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"add r",
+				"Package Control: Add Repository"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"copy",
+				"File: Copy Path"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"cop",
+				"File: Copy Path From Project"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: si",
+				"Snippet: Self Invoking Anonymous Function"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"keybin",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"intal",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTMLPrettify: Prettify"
+			],
+			[
+				"preer",
+				"Preferences: Settings - User"
+			],
+			[
+				"prefer",
+				"Preferences: Settings - User"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 576.0
+	},
+	"console":
+	{
+		"height": 118.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/andrehugo/Sites/macrodev/pembury/.gitignore",
+		"/Users/andrehugo/Sites/macrodev/pembury/src/wp-config.php",
+		"/Users/andrehugo/Dropbox/Synchronised Data/SublimeText/Larry/Packages/User/Preferences.sublime-settings",
+		"/Users/andrehugo/Sites/codrops/dynamic-grids/gridpak/gridpak.js",
+		"/Users/andrehugo/Downloads/gridpak/gridpak.css",
+		"/Users/andrehugo/Sites/codrops/dynamic-grids/gridpak/gridpak.css",
+		"/Users/andrehugo/Sites/codrops/dynamic-grids/.git/config",
+		"/Users/andrehugo/Sites/codrops/dynamic-grids/gridpak/gridpak.scss",
+		"/Users/andrehugo/Sites/codrops/dynamic-grids/gridpak/gridpak.less",
+		"/Applications/FileZilla.app/docs/fzdefaults.xml.example",
+		"/Applications/FileZilla.app/Contents/SharedSupport/fzdefaults.xml",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/.git/config",
+		"/Users/andrehugo/Sites/codrops/dynamic-grids/projects/codrops-dynamic-grids.sublime-project",
+		"/Users/andrehugo/Dropbox/Synchronised Data/SublimeText/Larry/Settings/SideBarEnhancements.json",
+		"/Users/andrehugo/Sites/codrops/Dynamic Grids/.gitignore",
+		"/Users/andrehugo/Dropbox/Synchronised Data/SublimeText/Larry/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/floats.textile",
+		"/Users/andrehugo/Sites/wp-template/wp-config.php",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/_includes/JB/setup",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/jquery-sticktotop.js",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/examples/tetris-heart/index.html",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/!index.md",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/index.textile",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/sidebar.textile",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/_includes/scripts.html",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/assets/js/tetris-heart.js",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/examples/tetris-heart/tetris-heart.js",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/index.html",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/params.json",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/stylesheets/styles.css",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/_includes/header.html",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/_includes/head.html",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/_includes/JB/pages_list",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/_layouts/page.html",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/_includes/themes/twitter/page.html",
+		"/Users/andrehugo/Sites/mobile_devices/.git/config",
+		"/Users/andrehugo/Sites/jqtangle/.git/config",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/_includes/footer.html",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/_includes/sidebar.html",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/sidebar.html",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/pages.html",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/index.md",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/style.css",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/.gitignore",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/js/jquery-sticktotop.js",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/examples/sidebar/index.html",
+		"/Users/andrehugo/Sites/jekyll-bootstrap/.gitignore",
+		"/Users/andrehugo/Sites/jekyll-bootstrap/Rakefile",
+		"/Users/andrehugo/Desktop/TemplateCodrops/css/style.css",
+		"/Users/andrehugo/Desktop/TemplateCodrops/css/demo.css",
+		"/Users/andrehugo/Desktop/TemplateCodrops/articleExample.html",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/minify.bat",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/minify.sh",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/README.md",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/examples/sidebar/style.css",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/projects/jq-sticktotop.sublime-project",
+		"/Users/andrehugo/Sites/JQuery-StickToTop/projects/jq-sticktotop.sublime-workspace",
+		"/Users/andrehugo/Sites/lovetodogood/projects/lovetodogood.sublime-project",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/charity/views/profile.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/js/core/templates.js",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/themes/lovetodogood/views/partials/nav-primary.html",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/find/views/partials/sidebar.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/lovetodogood/views/home.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/charity/views/edit-profile.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/themes/lovetodogood/views/partials/header.html",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/js/core/views/item.js",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/js/donate/views/form.js",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/js/charity/views/profile.js",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/dogooder/views/edit-profile.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/css/style.css",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/js/core/views/edit-profile.js",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/campaign/views/edit-profile.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/js/campaign/views/profile.js",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/css/sass/partials/media-queries/_!media-queries.scss",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/css/sass/partials/general/layout/vp/_mlayout-(03)vpgamma.scss",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/css/sass/partials/general/navigation/_navigation.scss",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/css/sass/partials/grid/_grid-(02)vpbeta.scss",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/css/sass/variables/_fonts.scss",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/css/sass/partials/general/helpers/_helpers.scss",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/lovetodogood/libraries/embed.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/dogooder/libraries/dogooder_lib.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/dogooder/views/profile.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/find/views/index.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/lovetodogood/views/js_templates/preview/do-gooder.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/campaign/views/profile.php",
+		"/Users/andrehugo/Sites/lovetodogood/styleguide/index.html",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/themes/lovetodogood/views/partials/footer.html",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/donations/libraries/donation.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/js/core/views/comments.js",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/lovetodogood/views/js_templates/preview/campaign.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/lovetodogood/views/js_templates/preview/charity.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/js/lib/jquery-sticktotop.js",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/js/ui.js",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/js/lib/jqueryui/jquery-ui-tokenlist.js",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/js/lib/jquery-sticktotop.min.js",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/campaign/edit-profile.css",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/js/home-app.js",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/js/home/views/home.js",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/dogooder/views/account.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/dogooder/plugin.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/charity/views/account.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/themes/lovetodogood/views/layouts/default.html",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/dogooder/models/fundraiser_donation_statuses_m.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/js/dogooder-app.js",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/campaign/details.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/themes/lovetodogood/views/partials/how-it-works.html",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/js/campaign/views/edit-profile.js",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/charity/views/about-default.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/campaign/views/about-default.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/js/campaign-app.js",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/campaign/views/edit.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/css/sass/partials/general/modals/vp/_modals-(03)vpgamma.scss",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/css/sass/partials/general/layout/vp/_mlayout-(01)vpalpha.scss",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/css/sass/partials/general/navigation/vp/_mnavigation-(01)vpalpha.scss",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/css/sass/partials/general/backgrounds-borders/_mbackgrounds-borders-(01)vpgamma.scss",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/css/sass/partials/general/backgrounds-borders/_mbackgrounds-borders.scss",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/css/sass/variables/_colours.scss",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/css/sass/partials/grid/_grid-(00)base.scss",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/find/libraries/search_engines/sphinx.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/js/lib/jquery.jsPlumb-1.3.16-all.min.js",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/lovetodogood/controllers/home.php",
+		"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/lovetodogood/plugin.php",
+		"/Users/andrehugo/Sites/lovetodogood/server_configs/sphinxsearch/sphinx.conf",
+		"/Users/andrehugo/Sites/lovetodogood/server_configs/sphinxsearch/base/development/base.conf",
+		"/private/etc/sphinxsearch/base.conf",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/css/sass/partials/general/layout/_layout.scss",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/css/sass/partials/media-queries/_mq-(03)vpgamma.scss",
+		"/Users/andrehugo/Sites/lovetodogood/src/assets/css/sass/partials/general/modals/vp/_modals-(01)vpalpha.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\005f\\005f\\005f",
+			"\\2013 \\2013",
+			"2014",
+			"2013",
+			"\\000D",
+			"50px",
+			"100px",
+			"45deg",
+			"translate(100px)",
+			"mb-alpha col ",
+			"hr",
+			"						\n",
+			"hr",
+			"pull_pu",
+			"col-",
+			"768",
+			"vpdelta",
+			"12_vpgamma",
+			"beta",
+			"12_vpg",
+			"4_vpgamma ",
+			"vpalpha",
+			"push",
+			":",
+			"push",
+			"push_1_vpalpha",
+			"right",
+			"left",
+			"ie8",
+			"push",
+			"width",
+			"span",
+			"span_1_ie8",
+			"span",
+			"<div class=\"highlight mb-alpha col span_12_vpalpha span_4_vpbeta span_12_vpgamma span_4_vpdelta span_3_ie8\">\n						<div class=\"row cf\">\n							<div class=\"highlight col span_2_vpalpha span_4_vpbeta span_12_vpgamma span_4_vpdelta span_3_ie8\"></div>\n							<div class=\"highlight col span_8_vpalpha span_4_vpbeta span_12_vpgamma span_4_vpdelta span_3_ie8\"></div>\n							<div class=\"highlight col span_2_vpalpha span_4_vpbeta span_12_vpgamma span_4_vpdelta span_3_ie8\"></div>\n						</div>\n					</div>\n					",
+			"col-",
+			"col",
+			"320",
+			"rem",
+			">",
+			"<",
+			"col",
+			".span",
+			"24px",
+			"col-",
+			"alpha",
+			"beta",
+			"}",
+			"{",
+			"class",
+			">",
+			"<",
+			"Vintage",
+			"somedir",
+			"clearfix",
+			"highlight",
+			"asd",
+			"24px",
+			"col-3-vpgamma",
+			"-4-vpbeta",
+			"-4",
+			"</div>",
+			"http: ",
+			":  ",
+			":",
+			"http: ",
+			":  ",
+			":",
+			"\n	Span 1:    8.33333333333%\n	Span 2:    16.6666666667%\n	Span 3:    25.0%\n	Span 4:    33.3333333333%\n	Span 5:    41.6666666667%\n	Span 6:    50.0%\n	Span 7:    58.3333333333%\n	Span 8:    66.6666666667%\n	Span 9:    75.0%\n	Span 10:    83.3333333333%\n	Span 11:    91.6666666667%\n	Span 12:    100%",
+			"vpbeta",
+			"min-width:  ",
+			"margin-left:",
+			"width:",
+			"vp",
+			"col-12 ",
+			"vp",
+			"{\n			width",
+			"(max-width",
+			" {\n			width",
+			"span_",
+			"false",
+			"consol",
+			"initialFlo",
+			"layou",
+			"thisPositioning",
+			"width: 'auto",
+			"width",
+			"width:",
+			"myWidth",
+			"alert",
+			"{",
+			"]",
+			"[",
+			"cache",
+			"jbcache",
+			"cache",
+			"jbcache",
+			"jb/setup",
+			"home_path",
+			"ass",
+			"}\n",
+			">\n",
+			"marginbo",
+			"left:",
+			"position",
+			"Lorem",
+			"<p>",
+			" default:",
+			"@|",
+			"<pre>",
+			"</pre>",
+			"</p>",
+			"page-header",
+			"world",
+			"hello world",
+			"img/",
+			"img",
+			"theme",
+			"twitter",
+			"MarginBo",
+			"true",
+			"(),",
+			"true",
+			"bottom",
+			"),\n",
+			"parentposition",
+			"position()",
+			"position"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"	",
+			"loading-container",
+			"loader",
+			"fs-eta tooltip",
+			"href=\"javascript:void(0);\"",
+			"hblock-gamma-ltr mt-none",
+			"hblock-gamma-ltr",
+			"<div class=\"container-alpha\"></div>",
+			"<div class=\"container-alpha\"><?php // post-header spacer ?>",
+			"fc-ntrl-min",
+			"lorempixel.com/",
+			"placekitten.com/",
+			"placekitten.com/g/",
+			"*",
+			"~",
+			"#c1d9e2",
+			".btn-secondary",
+			"secondary",
+			"&lt;",
+			"-",
+			"fixate",
+			"custom",
+			"lovetodogoodSkin",
+			"lovetodogood"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/andrehugo/Sites/codrops/dynamic-grids/css/demo.css",
+					"settings":
+					{
+						"buffer_size": 2264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/andrehugo/Sites/codrops/dynamic-grids/css/style.css",
+					"settings":
+					{
+						"buffer_size": 8774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								832,
+								832
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 618.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/Users/andrehugo/Sites/codrops/dynamic-grids/index.html",
+					"settings":
+					{
+						"buffer_size": 4611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1211,
+								1211
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 192.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/andrehugo/Sites/codrops/dynamic-grids/index2.html",
+					"settings":
+					{
+						"buffer_size": 5704,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								797,
+								797
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/andrehugo/Sites/codrops/dynamic-grids/article.html",
+					"settings":
+					{
+						"buffer_size": 15990,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13623,
+								13623
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6282.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.33,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 94.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"artic",
+				"article.html"
+			],
+			[
+				"gridpa",
+				"gridpak/gridpak.css"
+			],
+			[
+				".css",
+				"css/demo.css"
+			],
+			[
+				"scrp",
+				"_includes/scripts.html"
+			],
+			[
+				"foot",
+				"_includes/footer.html"
+			],
+			[
+				"footer",
+				"_includes/footer.html"
+			],
+			[
+				"head",
+				"_includes/head.html"
+			],
+			[
+				"stick",
+				"jquery-sticktotop.js"
+			],
+			[
+				"scrip",
+				"_includes/scripts.html"
+			],
+			[
+				"sidete",
+				"sidebar.textile"
+			],
+			[
+				"index",
+				"index.textile"
+			],
+			[
+				"list",
+				"_includes/JB/pages_list"
+			],
+			[
+				"setup",
+				"_includes/JB/setup"
+			],
+			[
+				"header",
+				"_includes/header.html"
+			],
+			[
+				"examplte",
+				"examples/tetris-heart/tetris-heart.js"
+			],
+			[
+				"jstetris",
+				"assets/js/tetris-heart.js"
+			],
+			[
+				"tetr",
+				"examples/tetris-heart/index.html"
+			],
+			[
+				"side",
+				"sidebar.textile"
+			],
+			[
+				"con",
+				"_config.yml"
+			],
+			[
+				"sidebar",
+				"_includes/sidebar.html"
+			],
+			[
+				"te",
+				"examples/tetris-heart/tetris-heart.js"
+			],
+			[
+				"tetris",
+				"examples/tetris-heart/index.html"
+			],
+			[
+				"stic",
+				"jquery-sticktotop.js"
+			],
+			[
+				"page.html",
+				"_includes/themes/twitter/page.html"
+			],
+			[
+				"page",
+				"_layouts/page.html"
+			],
+			[
+				"style",
+				"assets/css/style.css"
+			],
+			[
+				".html",
+				"_includes/themes/twitter/default.html"
+			],
+			[
+				"default",
+				"_layouts/default.html"
+			],
+			[
+				"conf",
+				"_config.yml"
+			],
+			[
+				"index.md",
+				"index.md"
+			],
+			[
+				"tet",
+				"examples/tetris-heart/index.html"
+			],
+			[
+				"exampl",
+				"examples/sidebar/index.html"
+			],
+			[
+				"profile",
+				"src/addons/ltdg/modules/charity/views/profile.php"
+			],
+			[
+				"template",
+				"src/assets/js/core/templates.js"
+			],
+			[
+				"campaignpr",
+				"src/addons/ltdg/modules/campaign/views/profile.php"
+			],
+			[
+				"campaignedit",
+				"src/addons/ltdg/modules/campaign/views/edit-profile.php"
+			],
+			[
+				"campedit-pro",
+				"src/assets/js/campaign/views/edit-profile.js"
+			],
+			[
+				"contactplugin",
+				"src/system/cms/modules/contact/plugin.php"
+			],
+			[
+				"account",
+				"src/addons/ltdg/modules/dogooder/views/account.php"
+			],
+			[
+				"_naviga",
+				"src/assets/css/sass/partials/general/navigation/_navigation.scss"
+			],
+			[
+				"nav-p",
+				"src/addons/ltdg/themes/lovetodogood/views/partials/nav-primary.html"
+			],
+			[
+				"how-t",
+				"src/addons/ltdg/themes/lovetodogood/views/partials/how-it-works.html"
+			],
+			[
+				"modal",
+				"src/assets/css/sass/partials/general/modals/_modals.scss"
+			],
+			[
+				"edit",
+				"src/addons/ltdg/modules/charity/views/edit-profile.php"
+			],
+			[
+				"home",
+				"src/addons/ltdg/modules/lovetodogood/views/home.php"
+			],
+			[
+				"helpers",
+				"src/assets/css/sass/partials/general/helpers/_helpers.scss"
+			],
+			[
+				"ui",
+				"src/assets/js/ui.js"
+			],
+			[
+				"nav-",
+				"src/addons/ltdg/themes/lovetodogood/views/partials/nav-primary.html"
+			],
+			[
+				"heaer",
+				"src/addons/ltdg/themes/lovetodogood/views/partials/header.html"
+			],
+			[
+				"layou",
+				"src/assets/css/sass/partials/general/layout/_layout.scss"
+			],
+			[
+				"embed",
+				"src/addons/ltdg/modules/lovetodogood/libraries/embed.php"
+			],
+			[
+				"",
+				"/Users/andrehugo/Sites/lovetodogood/src/addons/ltdg/modules/charity/views/profile.php"
+			],
+			[
+				"find",
+				"src/addons/ltdg/modules/find/views/index.php"
+			],
+			[
+				"donate",
+				"src/addons/ltdg/modules/donations/views/donate.php"
+			],
+			[
+				"preview",
+				"src/addons/ltdg/modules/lovetodogood/views/js_templates/preview/do-gooder.php"
+			],
+			[
+				"donation",
+				"src/addons/ltdg/modules/donations/libraries/donation.php"
+			],
+			[
+				"circles",
+				"src/assets/css/sass/partials/general/circles/_circles.scss"
+			],
+			[
+				"dog/preview",
+				"src/addons/ltdg/modules/lovetodogood/views/js_templates/preview/do-gooder.php"
+			],
+			[
+				"templates.js",
+				"src/assets/js/core/templates.js"
+			],
+			[
+				"dogooder_",
+				"src/addons/ltdg/modules/dogooder/libraries/dogooder_lib.php"
+			],
+			[
+				"background",
+				"src/assets/css/sass/partials/general/backgrounds-borders/_mbackgrounds-borders.scss"
+			],
+			[
+				"media",
+				"src/assets/css/sass/partials/media-queries/_!media-queries.scss"
+			],
+			[
+				"edit-profile.",
+				"src/addons/ltdg/modules/campaign/edit-profile.css"
+			],
+			[
+				"campaigedit",
+				"src/addons/ltdg/modules/campaign/views/edit-profile.php"
+			],
+			[
+				"prevdo",
+				"src/addons/ltdg/modules/lovetodogood/views/js_templates/preview/do-gooder.php"
+			],
+			[
+				"prevch",
+				"src/addons/ltdg/modules/lovetodogood/views/js_templates/preview/charity.php"
+			],
+			[
+				"campaprevie",
+				"src/addons/ltdg/modules/lovetodogood/views/js_templates/preview/campaign.php"
+			],
+			[
+				"temp",
+				"src/assets/js/core/templates.js"
+			],
+			[
+				"pro",
+				"src/addons/ltdg/modules/campaign/views/profile.php"
+			],
+			[
+				"layout-",
+				"src/assets/css/sass/partials/general/layout/vp/_mlayout-(03)vpgamma.scss"
+			],
+			[
+				"_nav",
+				"src/assets/css/sass/partials/general/navigation/_navigation.scss"
+			],
+			[
+				"nav",
+				"src/assets/css/sass/partials/general/navigation/_navigation.scss"
+			],
+			[
+				"grid",
+				"src/assets/css/sass/partials/grid/_grid-(02)vpbeta.scss"
+			],
+			[
+				"layout",
+				"src/assets/css/sass/partials/general/layout/_layout.scss"
+			],
+			[
+				"findinde",
+				"src/addons/ltdg/modules/find/views/index.php"
+			],
+			[
+				"fonts",
+				"src/assets/css/sass/variables/_fonts.scss"
+			],
+			[
+				"do",
+				"src/assets/js/dogooder-app.js"
+			],
+			[
+				"about",
+				"src/addons/ltdg/modules/charity/views/about-default.php"
+			],
+			[
+				"colour",
+				"src/assets/css/sass/variables/_colours.scss"
+			],
+			[
+				"campaign",
+				"src/assets/js/campaign/views/edit-profile.js"
+			],
+			[
+				"how",
+				"src/addons/ltdg/themes/lovetodogood/views/partials/how-it-works.html"
+			],
+			[
+				"mlayou",
+				"src/assets/css/sass/partials/general/layout/vp/_mlayout-(03)vpgamma.scss"
+			],
+			[
+				"backgrou",
+				"src/assets/css/sass/partials/general/backgrounds-borders/_mbackgrounds-borders.scss"
+			],
+			[
+				"how-it",
+				"src/addons/ltdg/themes/lovetodogood/views/partials/how-it-works.html"
+			],
+			[
+				"home.php",
+				"src/addons/ltdg/modules/lovetodogood/views/home.php"
+			],
+			[
+				"how-",
+				"src/addons/ltdg/themes/lovetodogood/views/partials/how-it-works.html"
+			],
+			[
+				"sphinx.php",
+				"src/addons/ltdg/modules/find/libraries/search_engines/sphinx.php"
+			],
+			[
+				"sphin",
+				"server_configs/sphinxsearch/sphinx.conf"
+			],
+			[
+				"templa",
+				"src/assets/js/core/templates.js"
+			],
+			[
+				"ui.",
+				"src/assets/js/ui.js"
+			],
+			[
+				"ui.css",
+				"styleguide/js/libs/tiny_mce/themes/advanced/skins/fixate/ui.css"
+			],
+			[
+				"content.css",
+				"styleguide/js/libs/tiny_mce/themes/advanced/skins/fixate/content.css"
+			],
+			[
+				"srccontent.css",
+				"src/assets/js/lib/tiny_mce/themes/advanced/skins/fixate/content.css"
+			],
+			[
+				"fixateui.css",
+				"src/assets/js/lib/tiny_mce/themes/advanced/skins/fixate/ui.css"
+			],
+			[
+				"aboutde",
+				"src/addons/ltdg/modules/dogooder/views/about-default.php"
+			],
+			[
+				"plugin",
+				"src/assets/admin/js/plugins.js"
+			],
+			[
+				"ui.js",
+				"src/assets/js/ui.js"
+			],
+			[
+				"tinymce",
+				"src/assets/js/lib/tiny_mce/jquery.tinymce.js"
+			],
+			[
+				"tiny",
+				"styleguide/js/libs/tiny_mce/tiny_mce.js"
+			],
+			[
+				"colours",
+				"src/assets/css/sass/variables/_colours.scss"
+			],
+			[
+				"style.css",
+				"src/assets/css/style.css"
+			],
+			[
+				"/system/cms/errors/error_general.php",
+				"src/system/cms/errors/error_general.php"
+			],
+			[
+				"feature",
+				"src/addons/ltdg/modules/find/views/partials/featured.php"
+			],
+			[
+				"previ",
+				"src/addons/ltdg/modules/lovetodogood/views/js_templates/preview/campaign.php"
+			],
+			[
+				"campaign-e",
+				"src/addons/ltdg/modules/dogooder/views/edit-campaign-profile.php"
+			],
+			[
+				"content",
+				"src/addons/ltdg/themes/lovetodogood/views/partials/content.html"
+			],
+			[
+				"admin_layouts.php",
+				"src/system/cms/modules/pages/controllers/admin_layouts.php"
+			],
+			[
+				"register",
+				"src/addons/ltdg/modules/lovetodogood/views/register_charity.php"
+			],
+			[
+				"boot",
+				"src/assets/js/lib/bootboxstrap.js"
+			],
+			[
+				"accou",
+				"src/addons/ltdg/modules/charity/views/account.php"
+			],
+			[
+				"backgr",
+				"src/assets/css/sass/partials/general/backgrounds-borders/_mbackgrounds-borders.scss"
+			],
+			[
+				"bootbox",
+				"src/assets/js/lib/bootboxstrap.js"
+			],
+			[
+				"reset",
+				"src/addons/ltdg/modules/lovetodogood/views/reset_pass.php"
+			],
+			[
+				"previewcampaign",
+				"src/addons/ltdg/modules/lovetodogood/views/js_templates/preview/campaign.php"
+			],
+			[
+				"dogooderprofile",
+				"src/addons/ltdg/modules/dogooder/views/profile.php"
+			],
+			[
+				"fundraise",
+				"src/addons/ltdg/modules/dogooder/models/fundraiser_campaigns_m.php"
+			],
+			[
+				"/my_model.php",
+				"src/system/cms/core/MY_Model.php"
+			],
+			[
+				"previe",
+				"src/addons/ltdg/modules/lovetodogood/views/js_templates/preview/charity.php"
+			],
+			[
+				"_layout.",
+				"src/assets/css/sass/partials/general/layout/_layout.scss"
+			],
+			[
+				"backgrounds",
+				"src/assets/css/sass/partials/general/backgrounds-borders/_mbackgrounds-borders.scss"
+			],
+			[
+				"defaul",
+				"src/addons/ltdg/themes/lovetodogood/views/layouts/default.html"
+			],
+			[
+				"_layout-",
+				"src/assets/css/sass/partials/general/layout/vp/_mlayout-(01)vpalpha.scss"
+			],
+			[
+				"hom",
+				"src/assets/js/home-app.js"
+			],
+			[
+				"colo",
+				"src/assets/css/sass/variables/_colours.scss"
+			],
+			[
+				"file",
+				"src/addons/ltdg/modules/lovetodogood/libraries/filepickerio.php"
+			],
+			[
+				"_preview",
+				"src/assets/css/sass/partials/general/previews/vp/_previews-(03)vpgamma.scss"
+			],
+			[
+				"font",
+				"src/assets/css/sass/variables/_fonts.scss"
+			],
+			[
+				"featured",
+				"src/addons/ltdg/modules/find/views/partials/featured.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"pem",
+				"/Users/andrehugo/Sites/vuwa-safari-tours/projects/vuwa.sublime-project"
+			],
+			[
+				"PEM",
+				"/Users/andrehugo/Sites/macrodev/pembury/projects/pembury.sublime-project"
+			],
+			[
+				"love",
+				"/Users/andrehugo/Sites/lovetodogood/projects/lovetodogood.sublime-project"
+			],
+			[
+				"st",
+				"/Users/andrehugo/Sites/styleguide/projects/styleguide.sublime-project"
+			],
+			[
+				"cod",
+				"/Users/andrehugo/Sites/JQuery-StickToTop/_includes/codrops-dynamic-grids.sublime-project"
+			],
+			[
+				"nic",
+				"/Users/andrehugo/Sites/nicole-da-silva/projects/nicole-da-silva.sublime-project"
+			],
+			[
+				"fix",
+				"/Users/andrehugo/Sites/fixate/projects/fixate.sublime-project"
+			],
+			[
+				"vuwa",
+				"/Users/andrehugo/Sites/vuwa-safari-tours/projects/vuwa.sublime-project"
+			],
+			[
+				"vuw",
+				"/Users/andrehugo/Sites/vuwa-safari-tours/projects/vuwa.sublime-project"
+			],
+			[
+				"stye",
+				"/Users/andrehugo/Sites/styleguide/projects/styleguide.sublime-project"
+			],
+			[
+				"sty",
+				"/Users/andrehugo/Sites/styleguide/projects/styleguide.sublime-project"
+			],
+			[
+				"fixa",
+				"/Users/andrehugo/Sites/fixate/projects/fixate.sublime-project"
+			],
+			[
+				"fi",
+				"/Users/andrehugo/Sites/fixate/projects/fixate.sublime-project"
+			],
+			[
+				"ser",
+				"/Users/andrehugo/Sites/serverfiles.sublime-project"
+			],
+			[
+				"",
+				"/Users/andrehugo/Sites/styleguide/projects/styleguide.sublime-project"
+			],
+			[
+				"coa",
+				"/Users/andrehugo/Sites/coal-mine-canary/projects/cmc.sublime-project"
+			],
+			[
+				"cmc",
+				"/Users/andrehugo/Sites/coal-mine-canary/projects/cmc.sublime-project"
+			],
+			[
+				"moder",
+				"/Users/andrehugo/Sites/modern-cleaners/projects/modern-cleaners.sublime-project"
+			],
+			[
+				"mo",
+				"/Users/andrehugo/Sites/mobile_devices/projects/mobile_devices.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,360 @@
+<h3>Introduction</h3>
+
+With the rapid addition of responsive design and development to our workflows, since Ethan Marcotte's <a href="http://www.alistapart.com/articles/responsive-web-design/">A List Apart article</a> in 2010, a myriad of tools have emerged to attempt to make our lives easier in developing responsive sites.
+
+All these tools, however, can be difficult to filter through in order to find a robust solution for our projects.
+
+In this article I will outline methods I have developed for creating flexible and fluid grids which allow for nesting at arbitrary depths, while allowing full freedom for how the grid behaves in all viewports.
+
+This is all possible with a big help from the excellent grid generator <a href="http://gridpak.com/">Gridpak</a>, put together by the folks over at <a href="http://erskinedesign.com/">Erskine</a>.
+
+<h3>What We'll Be Able To Do</h3>
+Once we're done here, we'll have a grid which can do some of the following:
+
+[jsfiddle url="http://jsfiddle.net/mousepotatoweb/n6UKP/" height="550px" include="result,html,css"]
+
+and can be used to manage our layouts in the real world like so:
+
+[jsfiddle url="http://jsfiddle.net/mousepotatoweb/Qvh7y/" height="550px" include="result,html,css"]
+
+<h3>Prerequisites</h3>
+Before we begin with how to achieve such a grid, we should outline everything we expect of the grid.
+
+These are the points that are important to me when using a functional grid system:
+<ul>
+  <li>columns are accurate and predictable at all widths</li>
+  <li>styles and markup are simple, and easy to use</li>
+  <li><a href="http://coding.smashingmagazine.com/2012/03/22/device-agnostic-approach-to-responsive-web-design/">device agnostic</a>, and fully fluid</li>
+  <li>nestable to any depth</li>
+  <li>modular with full control of columns in all viewports</li>
+  <li>should work without a polyfill in legacy browsers</li>
+</ul>
+With regards to the last point, many people are happy to use <a href="https://github.com/scottjehl/Respond">respond.js</a> to provide media query support to legacy browsers.
+
+Legacy browsers, however, don't require support for any viewport other than desktop, since they're only found on desktops and laptops. Below I'll outline how to target those dinosaurs while saving us an http request!
+
+Now that we know what we want... let's make it!
+<h3>Setup</h3>
+<h4>HTML Tag And IE Fallbacks</h4>
+To begin with, we need to ensure we can easily target legacy browsers with our styles. The following method is inspired by <a href="http://html5boilerplate.com/">html5 boilerplate</a>, and is explained by Paul Irish in his post on <a href="http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/">Conditional stylesheets vs css hacks? Answer: Neither!</a>
+<pre class="brush:html">&lt;!doctype html&gt;
+&lt;!--[if IE 8]&gt;    &lt;html class="no-js ie8 oldie" lang="en"&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 9]&gt;    &lt;html class="no-js ie9 oldie" lang="en"&gt; &lt;![endif]--&gt;
+&lt;!--[if gt IE 9]&gt;&lt;!--&gt; &lt;html class="no-js" lang="en"&gt; &lt;!--&lt;![endif]--&gt;</pre>
+All this does is add a class to the html tag depending on which browser a visitor is coming to our site with. I'll only be supporting from Internet Explorer 8 for the purpose of this article.
+
+From there it's easy enough to target legacy versions of Internet Explorer with the following:
+<pre class="brush:css">/* target only IE8 with the following class */
+.ie8 .my-class { ... }</pre>
+<h4>Base Styles And Rems</h4>
+<code>rem</code>s, or root <code>em</code>'s, are an awesome unit to start making use of in your styles, especially when it comes to <a href="http://snook.ca/archives/html_and_css/font-size-with-rem">font sizing</a>. <code>rem</code>s are great because they are relative units, but are relative to only one declaration. This means all the calculation nightmares introduced by nesting <code>em</code>s completely disappear!
+
+<code>rem</code>s make this possible by basing all calculations relative to the size of the font declared at the <code>body</code> level.
+
+This can be illustrated as follows:
+<pre class="brush:css">html {
+  ...
+  font-size: 100%;
+  ...
+}
+
+body {
+  ...
+  /* base font size: 16px (user agent dependant, but usually 16px) */
+  font-size: 1em;
+  ...
+}
+
+...
+
+.padding {
+  /* IE8 fallback */
+  padding: 32px;
+  padding: 2rem; /* 2 * 16px = 32px */
+}</pre>
+IE8 does not support <code>rem</code>s, so a px fallback is a small price to pay for the benefit that they provide.
+
+I'll show you a little later how this magical unit will make our lives a little easier when it comes to creating our grid.
+
+Now that that's out of the way, let's get to the bones of our grid!
+<h4>Getting Gridpak</h4>
+Go to <a href="http://gridpak.com/">gridpak.com</a>, and play around with the options so that you are comfortable with the features.
+
+For the purpose of this article, I'm going to download a grid with the following settings, but feel free to experiment:
+<ul>
+  <li>viewports: 480px, 640px, 960px and up</li>
+  <li>12 columns in each viewport (yup, 12 in mobile, tablet, and desktop!)</li>
+  <li>0 padding</li>
+  <li>24px gutter. Gridpak allows for viewport specific gutters, but I'm going to keep things simple with a global gutter.</li>
+</ul>
+Try keep your padding and gutter values as whole numbers resulting from simple multiplications of the body font size. This will help reduce decimal values, which <a href="http://www.webmonkey.com/2010/12/why-percentage-based-designs-dont-work-in-every-browser/">browsers handle differently</a>, as well as keep your styles a little neater.
+
+i.e. if base font size is 16px, gutter can be
+<ul>
+  <li>8px (16 * .5)</li>
+  <li>12px (16 * .75)</li>
+  <li>24px (16 * 1.5)</li>
+  <li>32px (16 * 2)</li>
+</ul>
+<strong>NB:</strong> This should ultimately be decided on what best suits your design.
+
+Once you are happy with your settings, download your grid!
+<h4>Breaking Gridpak Down</h4>
+One of the best features of Gridpak is that you'll have an incredibly robust and accurate grid with just a few lines of CSS.
+
+Gridpak's strength comes from leveraging the awesome power of setting all your elements to <a href="http://paulirish.com/2012/box-sizing-border-box-ftw/"><code>box-sizing: border-box</code></a>. With <code>border-box</code> we can have two 50% columns always sit on the same line, accomodating whatever borders we apply to them.
+
+With some clever CSS we can use transparent borders for gutters, giving us wonderfully accurate and managable columns:
+<pre class="brush:css">.row {
+  /*
+   * Rows contain columns
+   *
+   * Pull only the left hand side of our rows 24px left (our gutter width)
+   * to allow for the border magic that happens in .col below
+   */
+  margin-left: -24px;
+}
+
+.col {
+  /*
+   * Create a gutter using a transparent border at the specified gutter width.
+   * This pushes our content back the distance the row pulled us left, while
+   * allowing border-box calculations to be used.
+   */
+  border: 0px solid rgba(0,0,0,0);
+  border-left-width: 24px;
+
+  float: left;
+
+  /*
+   * Include the border in the calculation of the column width
+   */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  /*
+   * Ensure that backgrounds set on columns begin just inside the border, not underneath
+   */
+  -webkit-background-clip: padding-box !important;
+  -moz-background-clip: padding-box !important;
+  background-clip: padding-box !important;
+}</pre>
+On top of this, Gridpak puts grids for each viewport in their own media queries, and then restricts grid styles to each media query with upper bounds:
+<pre class="brush:css">/*
+ * Declare a grid between 0 and 479px only
+ */
+@media screen and (min-width: 0px) and (max-width: 479px) {
+
+  ...
+
+  .span_1 { width:8.33333333333%;}
+  .span_2 { width:16.6666666667%;}
+  .span_3 { width:25.0%;}
+  .span_4 { width:33.3333333333%;}
+  .span_5 { width:41.6666666667%;}
+  .span_6 { width:50.0%;}
+  .span_7 { width:58.3333333333%;}
+  .span_8 { width:66.6666666667%;}
+  .span_9 { width:75.0%;}
+  .span_10 { width:83.3333333333%;}
+  .span_11 { width:91.6666666667%;}
+  .span_12 {
+    margin-left:0;
+    width:100%;
+  }
+
+}
+
+/*
+ * Declare a grid between 480px and 639px only
+ */
+@media screen and (min-width: 480px) and (max-width: 639px) {
+  ...
+}
+
+/* etc. */
+...</pre>
+If we had to specify different numbers of columns for viewports when deciding on our Gridpak settings - say 2 columns for mobile, 4 columns for tablet, and 12 for desktop - these media query specific declarations would grant us more flexibility over our columns than the general, "Let's give mobile and tablet 1 column for everything" solutions most prevalent in grid systems.
+
+i.e. one class can make a column occupy the full width of a row, half the width, and 1/6th of the width depending on the active viewport.
+
+This is pretty powerful stuff - but we're still being held back a little! I want those columns to do <em>exactly</em> what I want in every viewport!
+<h4>Bending Gridpak To Our Will</h4>
+<h5>Using rems For Easier Maintainability</h5>
+First of all, let's take the foundation of Gridpak and give it a nice modern boost (with a fallback for the old browsers):
+<pre class="brush:css">.row {
+  margin-left: -24px;
+  margin-left: -1.5rem;
+}
+
+/* Reusable column setup */
+.col {
+  border: 0px solid transparent;
+  border-left-width: 24px;
+  border-left-width: 1.5rem;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-background-clip: padding-box !important;
+  -moz-background-clip: padding-box !important;
+  background-clip: padding-box !important;
+}</pre>
+In future, when we don't support IE8, we can simply drop the px fallbacks.
+
+<code>rem</code>s are free variables, and by making use of <a href="http://sass-lang.com/">Sass</a>, we can easily manage the IE8 px declarations with their own variable for easier maintainability.
+<h5>Zooming And Cascading Grids With Media Query Blocks</h5>
+Secondly, we want to make sure that when users zoom into our sites that the layouts don't break. Lyza Gardner put together a case study for using <a href="http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw/">proportional units on media query declarations</a>.
+
+Basically, pixel-based media query declarations don't play well with zooming, so we use <code>em</code>'s instead.
+
+Additionally, <a href="http://dev.w3.org/csswg/mediaqueries4/#units">media queries use the user agent's base font size</a> when declaring viewport widths. This means that, generally, we will be using 16px as a basis for our width calculations.
+
+While we're at it... let's get rid of those <code>max-width</code> media query restrictions so we can harness some cascade power:
+<pre class="brush:css">/*
+ * Declare a grid which will be effective from 0px
+ */
+@media screen and (min-width: 0) {
+  ...
+}
+
+/*
+ * Declare a grid which will be effective from 480px
+ * 480 / 16 = 30em
+ */
+@media screen and (min-width: 30em) {
+  ...
+}
+
+/*
+ * Declare a grid which will be effective from 640px
+ * 640 / 16 = 40em
+ */
+@media screen and (min-width: 40em) {
+  ...
+}
+
+...</pre>
+In addition to fixing zooming, this setup allows column widths declared at larger viewports to override those of smaller viewports in true mobile-first fashion.
+<h5>Namespacing Viewport Specific Columns</h5>
+In order to effectively control our columns at all viewports, we need to give them unique names so that the style overrides only occur when we explicitly make it do so.
+
+Using our conditionals, even IE8 gets its own grid declarations!
+
+I'm going to append a name to the end of each span to assign it to the viewport from which it is effective:
+<pre class="brush:css">/*
+ * IE8 grid
+ * This grid will only work in IE8, and at all widths
+ */
+.ie8 .span_1_vpalpha { ... }
+.ie8 .span_2_vpalpha { ... }
+...
+.ie8 .span_1_vpalpha { ... }
+
+/*
+ * VIEWPORT ALPHA
+ * Declare a grid which will be effective from 0px
+ */
+@media screen and (min-width: 0) {
+
+  ...
+
+  .span_1_vpalpha { ... }
+  .span_2_vpalpha { ... }
+  ...
+  .span_1_vpalpha { ...  }
+
+}
+
+/*
+ * VIEWPORT BETA
+ * Declare a grid which will be effective from 480px
+ * 480 / 16 = 30em
+ */
+@media screen and (min-width: 20em) {
+
+  ...
+
+  .span_1_vpbeta { ... }
+  .span_2_vpbeta { ... }
+  ...
+  .span_1_vpbeta { ... }
+
+}
+
+/*
+ * VIEWPORT GAMMA
+ * Declare a grid which will be effective from 640px
+ * 640 / 16 = 40em
+ */
+...</pre>
+And that's that, we're ready to put our grid into action!
+<h3>Usage</h3>
+Using Gridpak is easy. Groups of columns must have a parent that is a <a href="http://nicolasgallagher.com/micro-clearfix-hack/">clearfixed</a> row... and that's all you need to know!
+<pre class="brush:html">&lt;!--
+  create a row with 2 columns and the following features:
+
+  mobile  -&gt; 3 spans + 9 spans
+  tablet  -&gt; 6 spans + 6 spans
+  desktop -&gt; 4 spans + 8 spans
+  IE8     -&gt; 4 spans + 8 spans
+--&gt;
+&lt;div class="row cf"&gt;
+  &lt;div class="col span-3-vpalpha span-6-vpbeta span-4-vpgamma span-4-ie8"&gt;
+    content...
+  &lt;/div&gt;
+  &lt;div class="col span-9-vpalpha span-6-vpbeta span-8-vpgamma span-8-ie8"&gt;
+    content...
+  &lt;/div&gt;
+&lt;/div&gt;</pre>
+Nesting columns follows the same pattern:
+<pre class="brush:html">&lt;!--
+  create a row with 2 columns spanning half the width for all viewports.
+
+  Have both columns then contain 2 columns each, both spanning half the width 
+  of the parent column.
+--&gt;
+&lt;div class="row cf"&gt;
+  &lt;div class="col span-6-vpalpha span-6-ie8"&gt;
+    &lt;div class="row cf"&gt;
+      &lt;div class="col span-6-vpalpha span-6-ie8"&gt;
+        content...
+      &lt;/div&gt;
+      &lt;div class="col span-6-vpalpha span-6-ie8"&gt;
+        content...
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class="col span-6-vpalpha span-6-ie8"&gt;
+    &lt;div class="row cf"&gt;
+      &lt;div class="col span-6-vpalpha span-6-ie8"&gt;
+        content...
+      &lt;/div&gt;
+      &lt;div class="col span-6-vpalpha span-6-ie8"&gt;
+        content...
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</pre>
+"Whoa! That's a lotta classes!" you may be saying... but guess what... you're not going to find (m?)any grids with this flexibility by using a couple classes and descendant selectors.
+
+If your 'classitis' sense is still tingling... there are a number of excellent articles out there which debunk the generally poor arguments portraying the use of classes as 'bad':
+<ul>
+  <li><a href="http://nicolasgallagher.com/about-html-semantics-front-end-architecture/">About HTML semantics and front-end architecture</a></li>
+  <li><a href="http://www.stubbornella.org/content/2011/04/28/our-best-practices-are-killing-us/">Our (CSS) Best Practices Are Killing Us</a></li>
+  <li><a href="http://csswizardry.com/2012/10/a-classless-class-on-using-more-classes-in-your-html/">A classless class on using more classes in your HTML</a></li>
+</ul>
+<h3>Conclusion</h3>
+Phew, it's been quite a journey to get here, and there are quite a few methods and ideas to wrap our heads around!
+
+All in all we've put together a concise grid that can be scaled to as many, or as few, viewports as we like. More than that, it's easy to use, doesn't require very much markup, and gives us the flexibility to nest grids within grids as far as we like!
+
+With the new <a href="http://www.w3.org/TR/css3-flexbox/">flexbox</a> syntax finally reaching candidate recommendation, we can start looking to <a href="http://weblog.bocoup.com/dive-into-flexbox/">experiment with the future of grid layouts</a>.
+
+Unfortunately, until IE9 (and even IE10 with its partial support of the syntax) is out of our hair, we may not be able to fully rely on flexbox for our grids.
+
+Until then, I'm happy to have come across a solution which I have found to give me all the flexibility in a grid layout I could ask for.
+
+Give me a shout in the comments if you have any questions or if you've come across useful tools for creating powerful grid systems.
