@@ -102,7 +102,7 @@ Once you are happy with your settings, download your grid!
 <h4>Breaking Gridpak Down</h4>
 One of the best features of Gridpak is that you'll have an incredibly robust and accurate grid with just a few lines of CSS.
 
-Gridpak's strength comes from leveraging the awesome power of setting all your elements to <a href="http://paulirish.com/2012/box-sizing-border-box-ftw/"><code>box-sizing: border-box</code></a>. With <code>border-box</code> we can have two 50% columns always sit on the same line, accomodating whatever borders we apply to them.
+Gridpak's strength comes from leveraging the awesome power of setting all your elements to <a href="http://paulirish.com/2012/box-sizing-border-box-ftw/"><code>box-sizing: border-box</code></a>. With <code>border-box</code> we can have two 50% columns always sit on the same line, accommodating whatever borders we apply to them.
 
 With some clever CSS we can use transparent borders for gutters, giving us wonderfully accurate and managable columns:
 <pre class="brush:css">.row {
@@ -247,10 +247,10 @@ I'm going to append a name to the end of each span to assign it to the viewport 
  * IE8 grid
  * This grid will only work in IE8, and at all widths
  */
-.ie8 .span_1_vpalpha { ... }
-.ie8 .span_2_vpalpha { ... }
+.ie8 .span_1_ie8 { ... }
+.ie8 .span_2_ie8 { ... }
 ...
-.ie8 .span_1_vpalpha { ... }
+.ie8 .span_1_ie8 { ... }
 
 /*
  * VIEWPORT ALPHA
@@ -301,10 +301,10 @@ Using Gridpak is easy. Groups of columns must have a parent that is a <a href="h
   IE8     -&gt; 4 spans + 8 spans
 --&gt;
 &lt;div class="row cf"&gt;
-  &lt;div class="col span-3-vpalpha span-6-vpbeta span-4-vpgamma span-4-ie8"&gt;
+  &lt;div class="col span_3_vpalpha span_6_vpbeta span_4_vpgamma span_4_ie8"&gt;
     content...
   &lt;/div&gt;
-  &lt;div class="col span-9-vpalpha span-6-vpbeta span-8-vpgamma span-8-ie8"&gt;
+  &lt;div class="col span_9_vpalpha span_6_vpbeta span_8_vpgamma span_8_ie8"&gt;
     content...
   &lt;/div&gt;
 &lt;/div&gt;</pre>
@@ -316,23 +316,23 @@ Nesting columns follows the same pattern:
   of the parent column.
 --&gt;
 &lt;div class="row cf"&gt;
-  &lt;div class="col span-6-vpalpha span-6-ie8"&gt;
+  &lt;div class="col span_6_vpalpha span_6_ie8"&gt;
     &lt;div class="row cf"&gt;
-      &lt;div class="col span-6-vpalpha span-6-ie8"&gt;
+      &lt;div class="col span_6_vpalpha span_6_ie8"&gt;
         content...
       &lt;/div&gt;
-      &lt;div class="col span-6-vpalpha span-6-ie8"&gt;
+      &lt;div class="col span_6_vpalpha span_6_ie8"&gt;
         content...
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 
-  &lt;div class="col span-6-vpalpha span-6-ie8"&gt;
+  &lt;div class="col span_6_vpalpha span_6_ie8"&gt;
     &lt;div class="row cf"&gt;
-      &lt;div class="col span-6-vpalpha span-6-ie8"&gt;
+      &lt;div class="col span_6_vpalpha span_6_ie8"&gt;
         content...
       &lt;/div&gt;
-      &lt;div class="col span-6-vpalpha span-6-ie8"&gt;
+      &lt;div class="col span_6_vpalpha span_6_ie8"&gt;
         content...
       &lt;/div&gt;
     &lt;/div&gt;
